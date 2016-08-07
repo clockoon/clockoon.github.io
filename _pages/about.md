@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-date:
+date: 2016-08-07
 modified:2016-08-07
 excerpt: "Descriptions and guides about C20."
 ---
