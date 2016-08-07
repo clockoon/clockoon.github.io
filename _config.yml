@@ -217,6 +217,16 @@ defaults:
       comments: true
       share: true
       related: true
+    - scope:
+        path: ""
+        type: post
+      values:
+        layout: single
+        author_profile: false
+        read_time: true
+        comments: true
+        share: true
+        related: true
 
 # HTML Compression
 # - http://jch.penibelst.de/
