@@ -61,9 +61,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Sungbin Jeon"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Writing stuffs."
   location         : "Seoul, Korea"
   email            : "clockoon@gmail.com"
   uri              :
@@ -71,12 +71,12 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "http://facebook.com/clockoon"
   foursquare       :
   github           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "http://instagram.com/clockoon"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "http://twitter.com/clockoon"
   vine             :
   weibo            :
   xing             :
