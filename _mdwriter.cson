@@ -40,7 +40,6 @@ frontMatterDate: "{year}-{month}-{day} {hour}:{minute}"
 # front matter template
 frontMatter: """
 ---
-layout: "{layout}"
 title: "{title}"
 date: "{date}"
 categories:
