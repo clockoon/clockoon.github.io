@@ -1,15 +1,9 @@
 ---
 permalink: /about/
 title: "About"
-date: 2016-08-07
-modified:
-excerpt: "About C20."
-image:
-  feature:
-  teaser: 
-ads: false
-share: false
-author: false
+date:
+modified:2016-08-07
+excerpt: "Descriptions and guides about C20."
 ---
 
 ## 개요
