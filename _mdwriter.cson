@@ -42,10 +42,13 @@ frontMatter: """
 ---
 title: "{title}"
 date: "{date}"
+modified:
 categories:
   -
 tags:
   -
+header:
+  image:
 ---
 """
 
