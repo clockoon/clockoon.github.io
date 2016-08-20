@@ -91,7 +91,7 @@ textStyles:
   bold:
     before: "**", after: "**"
   italic:
-    before: "_", after: "_"
+    before: "*", after: "*"
   keystroke:
     before: "<kbd>", after: "</kbd>"
   strikethrough:
