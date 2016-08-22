@@ -1,0 +1,16 @@
+---
+permalink: /test/
+title: "Movie test"
+date: 2016-08-22
+excerpt: "Movie list test"
+---
+
+<h1>Movies</h1>
+
+<ul>
+{% for post in site.tags["영화"] %}
+  <li>
+    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
