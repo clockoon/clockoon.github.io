@@ -9,15 +9,15 @@ excerpt: "Movie list test"
 {% for post in site.tags["영화"] %}
   <li>
     {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-    {% if post.tags contains '★☆☆☆☆'  } ★☆☆☆☆
-    {% elsif post.tags contains '★½☆☆☆'  } ★½☆☆☆
-    {% elsif post.tags contains '★★☆☆☆'  } ★★☆☆☆
-    {% elsif post.tags contains '★★½☆☆'  } ★★½☆☆
-    {% elsif post.tags contains '★★★☆☆'  } ★★★☆☆
-    {% elsif post.tags contains '★★★½☆'  } ★★★½☆
-    {% elsif post.tags contains '★★★★☆'  } ★★★★☆
-    {% elsif post.tags contains '★★★★½'  } ★★★★½
-    {% elsif post.tags contains '★★★★★'  } ★★★★★
+    {% if post.tags contains '★☆☆☆☆' %} ★☆☆☆☆
+    {% elsif post.tags contains '★½☆☆☆' %} ★½☆☆☆
+    {% elsif post.tags contains '★★☆☆☆' %} ★★☆☆☆
+    {% elsif post.tags contains '★★½☆☆' %} ★★½☆☆
+    {% elsif post.tags contains '★★★☆☆' %} ★★★☆☆
+    {% elsif post.tags contains '★★★½☆' %} ★★★½☆
+    {% elsif post.tags contains '★★★★☆' %} ★★★★☆
+    {% elsif post.tags contains '★★★★½' %} ★★★★½
+    {% elsif post.tags contains '★★★★★' %} ★★★★★
     {% endif %}
   </li>
 {% endfor %}
