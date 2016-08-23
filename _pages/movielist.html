@@ -1,9 +1,12 @@
 ---
-permalink: /test/
-title: "Movie test"
+layout: archive
+permalink: /movies/
+title: "영화"
 date: 2016-08-22
-excerpt: "Movie list test"
+excerpt: "Movie list"
 ---
+
+{% include base_path %}
 
 <ul>
 {% for post in site.tags["영화"] %}
